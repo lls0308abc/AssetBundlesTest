@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 578260700
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 17e4003dcef9afd9e24870c28d14335d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 27ced2172814fe9315819a549123fc95
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/ImportedPackages_ArtResources/WeaponSkins/AK/skins/Default/Basic_AR_Base_Color.tga
+- Assets/ImportedPackages_ArtResources/WeaponSkins/AK/skins/Default/w_ak47basic.ws_oem.mat
+- Assets/Prefabs/WeaponSkins/w_ak47basic/ws_oem-inv.prefab
+- Assets/Prefabs/WeaponSkins/w_ak47basic/ws_oem-tp.prefab
+- Assets/Prefabs/WeaponSkins/w_ak47basic/ws_oem-fp.prefab
+Dependencies:
+- D:/Projects/Unity Projects/LocalWarfareOnGitHub/AssetBundles/StandaloneWindows/w_ak47basic/common

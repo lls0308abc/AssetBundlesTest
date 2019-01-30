@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 1159758169
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 36a200a825794fe64d9c1d5d848457ab
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8a137fdee7e9d47eebf7cc3f84c1e481
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Weaponry/Weapons/M4A1/ReloadAnimation/Default/m4a1 reload 1112.fbx
+- Assets/ImportedPackages_ArtResources/AssaultWeapons/Models/ar1_static.fbx
+- Assets/Animations/NewWeaponSystem/Weapons/M4a1/Materials/AR1.mat
+- Assets/Resources/Weaponry/Weapons/M4A1/ReloadAnimation/Default/Materials/AR1.mat
+- Assets/ImportedPackages_ArtResources/WeaponSkins/M4A1/common/AssualtRifle_1_Normal.tga
+Dependencies:
+- D:/Projects/Unity Projects/LocalWarfareOnGitHub/AssetBundles/StandaloneWindows/common

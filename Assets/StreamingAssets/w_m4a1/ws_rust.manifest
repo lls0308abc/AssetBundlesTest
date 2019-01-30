@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 517437066
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ec4e38e62773af967e7dbde6e8ca43d9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 27ced2172814fe9315819a549123fc95
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/ImportedPackages_ArtResources/WeaponSkins/M4A1/skins/Rust/AssualtRifle_1_Base_Color.tga
+- Assets/Prefabs/WeaponSkins/w_m4a1/ws_rust-fp.prefab
+- Assets/Prefabs/WeaponSkins/w_m4a1/ws_rust-inv.prefab
+- Assets/Prefabs/WeaponSkins/w_m4a1/ws_rust-tp.prefab
+- Assets/ImportedPackages_ArtResources/WeaponSkins/M4A1/skins/Rust/w_m4a1.ws_rust.mat
+Dependencies:
+- D:/Projects/Unity Projects/LocalWarfareOnGitHub/AssetBundles/StandaloneWindows/w_m4a1/common

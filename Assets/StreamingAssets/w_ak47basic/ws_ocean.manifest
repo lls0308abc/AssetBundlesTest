@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 2787860995
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 731fe59b75df72b000773abe24dc6e07
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 27ced2172814fe9315819a549123fc95
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/ImportedPackages_ArtResources/WeaponSkins/AK/skins/Ocean/Basic_AR_Base_Color.tga
+- Assets/Prefabs/WeaponSkins/w_ak47basic/ws_ocean-fp.prefab
+- Assets/ImportedPackages_ArtResources/WeaponSkins/AK/skins/Ocean/w_ak47basic.ws_ocean.mat
+- Assets/Prefabs/WeaponSkins/w_ak47basic/ws_ocean-inv.prefab
+- Assets/Prefabs/WeaponSkins/w_ak47basic/ws_ocean-tp.prefab
+Dependencies:
+- D:/Projects/Unity Projects/LocalWarfareOnGitHub/AssetBundles/StandaloneWindows/w_ak47basic/common

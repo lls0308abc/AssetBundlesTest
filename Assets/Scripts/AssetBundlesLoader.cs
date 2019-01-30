@@ -3,47 +3,68 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
-using UnityEngine.Networking;
+using UnityEngine.UI;
+using LWContent;
 
-namespace LWContent
+namespace LWAssetBundle
 {
     public class AssetBundlesLoader : MonoBehaviour
     {
-        const string serverPath = @"https://dagkjcdmsdqis.cloudfront.net/AssetBundles/Android/w_ak47basic/";
         public Transform root;
+        public InputField Skin;
+        public Text Console;
+        public string currentLoadedBundleName;
 
-        void Start()
+        public void OnPreviewClicked()
         {
-            StartCoroutine(GetAssetBundle(@"common", (common)=> {
-                StartCoroutine(GetAssetBundle(@"ws_oem",
-                (bundle) => {
-                    var assetLoadRequest = bundle.LoadAssetAsync<GameObject>("ws_oem-inv");
-                    GameObject gameObject = Instantiate(assetLoadRequest.asset as GameObject);
-                    SetParentAndNormalize(gameObject.transform, root);
-                })
-            );
-            }));
+            if (!string.IsNullOrEmpty(currentLoadedBundleName))
+                AssetBundleManager.Unload(currentLoadedBundleName, true);
+
+            foreach (Transform child in root)
+            {
+                Destroy(child.gameObject);
+            }
+            string skinId = Skin.text;
+
+            GetAssetBundle(skinId, (result) =>
+            {
+                if (result)
+                {
+                    currentLoadedBundleName = LWAssetBundleParser.TransferItemIdToBundleName(skinId);
+                    string skinName = LWAssetBundleParser.SplitsToSingleItemString(skinId)[1];
+                    AssetBundle ab = AssetBundleManager.GetAssetBundle(currentLoadedBundleName);
+                    if (ab != null)
+                    {
+                        GameObject obj = Instantiate(ab.LoadAsset<GameObject>(skinName + "-inv"));
+                        SetParentAndNormalize(obj.transform, root);
+                        Debug.Log("Get AssetBundle success!");
+                    }
+                    else
+                        Debug.Log("Get AssetBundle failed!");
+                }
+                else
+                    Debug.Log("Get AssetBundle failed!");
+
+            });
         }
 
-        IEnumerator GetAssetBundle(string FileName, Action<AssetBundle> callback)
+        public void OnCleanClicked()
         {
-            UnityWebRequest www = UnityWebRequestAssetBundle.GetAssetBundle(serverPath + FileName, new Hash128(), 0);
-            yield return www.SendWebRequest();
-
-            if (www.isNetworkError || www.isHttpError)
-            {
-                Debug.Log(www.error);
-            }
-            else
-            {
-                AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(www);
-                AssetBundles.Add(bundle);
-                if (callback != null)
-                    callback(bundle);
-            }
+            Console.text = "";
+            if (!string.IsNullOrEmpty(currentLoadedBundleName))
+                AssetBundleManager.Unload(currentLoadedBundleName, true);
         }
 
-        public List<AssetBundle> AssetBundles;
+        private void GetAssetBundle(string bundleName, Action<bool> callback)
+        {
+            Hash128 hash = new Hash128();
+
+            Debug.Log(bundleName);
+            string bundleNameTransfered = LWAssetBundleParser.TransferItemIdToBundleName(bundleName);
+            Console.text += bundleName + "\r\n";
+            AssetBundleRef requestAB = new AssetBundleRef(bundleNameTransfered, hash);
+            AssetBundleManager.DownloadAssetBundle(requestAB, callback);
+        }
 
         public void SetParentAndNormalize(Transform targetTransform, Transform parent)
         {

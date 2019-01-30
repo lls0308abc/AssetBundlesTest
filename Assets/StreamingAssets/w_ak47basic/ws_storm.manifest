@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 263289128
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9893519995f3ed745b49ed300727cc02
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 27ced2172814fe9315819a549123fc95
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/ImportedPackages_ArtResources/WeaponSkins/AK/skins/Storm/w_ak47basic.ws_storm.mat
+- Assets/ImportedPackages_ArtResources/WeaponSkins/AK/skins/Storm/Basic_AR_Base_Color.tga
+- Assets/Prefabs/WeaponSkins/w_ak47basic/ws_storm-fp.prefab
+- Assets/Prefabs/WeaponSkins/w_ak47basic/ws_storm-inv.prefab
+- Assets/Prefabs/WeaponSkins/w_ak47basic/ws_storm-tp.prefab
+Dependencies:
+- D:/Projects/Unity Projects/LocalWarfareOnGitHub/AssetBundles/StandaloneWindows/w_ak47basic/common

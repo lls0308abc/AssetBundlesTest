@@ -1,0 +1,267 @@
+ManifestFileVersion: 0
+CRC: 3719455824
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: w_ak47basic/ws_military
+      Dependencies:
+        Dependency_0: w_ak47basic/common
+    Info_1:
+      Name: w_ak47basic/ws_bronze
+      Dependencies:
+        Dependency_0: w_ak47basic/common
+    Info_2:
+      Name: w_ak47basic/ws_kindared
+      Dependencies:
+        Dependency_0: w_ak47basic/common
+    Info_3:
+      Name: w_ak47basic/ws_storm
+      Dependencies:
+        Dependency_0: w_ak47basic/common
+    Info_4:
+      Name: w_ak47basic/ws_enthu
+      Dependencies:
+        Dependency_0: w_ak47basic/common
+    Info_5:
+      Name: w_ak47basic/ws_m+o
+      Dependencies:
+        Dependency_0: w_ak47basic/common
+    Info_6:
+      Name: w_ak47basic/ws_navy
+      Dependencies:
+        Dependency_0: w_ak47basic/common
+    Info_7:
+      Name: w_ak47basic/ws_ocean
+      Dependencies:
+        Dependency_0: w_ak47basic/common
+    Info_8:
+      Name: w_ak47basic/ws_ptydrk
+      Dependencies:
+        Dependency_0: w_ak47basic/common
+    Info_9:
+      Name: w_ak47basic/ws_rusha
+      Dependencies:
+        Dependency_0: w_ak47basic/common
+    Info_10:
+      Name: w_ak47basic/ws_rust
+      Dependencies:
+        Dependency_0: w_ak47basic/common
+    Info_11:
+      Name: w_ak47basic/ws_xmas
+      Dependencies:
+        Dependency_0: w_ak47basic/common
+    Info_12:
+      Name: w_m4a1/ws_bronze
+      Dependencies:
+        Dependency_0: w_m4a1/common
+    Info_13:
+      Name: w_m4a1/ws_oem
+      Dependencies:
+        Dependency_0: w_m4a1/common
+    Info_14:
+      Name: w_m4a1/ws_kindared
+      Dependencies:
+        Dependency_0: w_m4a1/common
+    Info_15:
+      Name: w_m4a1/ws_enthu
+      Dependencies:
+        Dependency_0: w_m4a1/common
+    Info_16:
+      Name: w_m4a1/ws_military
+      Dependencies:
+        Dependency_0: w_m4a1/common
+    Info_17:
+      Name: w_m4a1/ws_m+o
+      Dependencies:
+        Dependency_0: w_m4a1/common
+    Info_18:
+      Name: w_m4a1/ws_navy
+      Dependencies:
+        Dependency_0: w_m4a1/common
+    Info_19:
+      Name: w_m4a1/ws_ocean
+      Dependencies:
+        Dependency_0: w_m4a1/common
+    Info_20:
+      Name: w_m4a1/ws_ptydrk
+      Dependencies:
+        Dependency_0: w_m4a1/common
+    Info_21:
+      Name: w_m4a1/ws_rusha
+      Dependencies:
+        Dependency_0: w_m4a1/common
+    Info_22:
+      Name: w_m4a1/ws_rust
+      Dependencies:
+        Dependency_0: w_m4a1/common
+    Info_23:
+      Name: w_m4a1/ws_storm
+      Dependencies:
+        Dependency_0: w_m4a1/common
+    Info_24:
+      Name: w_m4a1/ws_xmas
+      Dependencies:
+        Dependency_0: w_m4a1/common
+    Info_25:
+      Name: common
+      Dependencies: {}
+    Info_26:
+      Name: w_scar/ws_oem
+      Dependencies:
+        Dependency_0: w_scar/common
+    Info_27:
+      Name: w_scar/ws_enthusiasm
+      Dependencies:
+        Dependency_0: w_scar/common
+    Info_28:
+      Name: w_scar/ws_warning
+      Dependencies:
+        Dependency_0: w_scar/common
+    Info_29:
+      Name: w_scar/ws_cmofst
+      Dependencies:
+        Dependency_0: w_scar/common
+    Info_30:
+      Name: w_scar/ws_xmas
+      Dependencies:
+        Dependency_0: w_scar/common
+    Info_31:
+      Name: w_scar/ws_kindared
+      Dependencies:
+        Dependency_0: w_scar/common
+    Info_32:
+      Name: w_scar/ws_m+o
+      Dependencies:
+        Dependency_0: w_scar/common
+    Info_33:
+      Name: w_scar/ws_navy
+      Dependencies:
+        Dependency_0: w_scar/common
+    Info_34:
+      Name: w_scar/ws_prydrk
+      Dependencies:
+        Dependency_0: w_scar/common
+    Info_35:
+      Name: w_scar/ws_recycle
+      Dependencies:
+        Dependency_0: w_scar/common
+    Info_36:
+      Name: w_scar/ws_rusha
+      Dependencies:
+        Dependency_0: w_scar/common
+    Info_37:
+      Name: w_scar/ws_fade
+      Dependencies:
+        Dependency_0: w_scar/common
+    Info_38:
+      Name: w_scar/ws_rust
+      Dependencies:
+        Dependency_0: w_scar/common
+    Info_39:
+      Name: w_spas12/ws_oem
+      Dependencies:
+        Dependency_0: w_spas12/common
+    Info_40:
+      Name: w_spas12/ws_leopard
+      Dependencies:
+        Dependency_0: w_spas12/common
+    Info_41:
+      Name: w_spas12/ws_jungle
+      Dependencies:
+        Dependency_0: w_spas12/common
+    Info_42:
+      Name: w_spas12/ws_digital
+      Dependencies:
+        Dependency_0: w_spas12/common
+    Info_43:
+      Name: w_spas12/ws_black
+      Dependencies:
+        Dependency_0: w_spas12/common
+    Info_44:
+      Name: w_spas12/ws_winter
+      Dependencies:
+        Dependency_0: w_spas12/common
+    Info_45:
+      Name: w_spas12/ws_alien
+      Dependencies:
+        Dependency_0: w_spas12/common
+    Info_46:
+      Name: w_spas12/ws_irish
+      Dependencies:
+        Dependency_0: w_spas12/common
+    Info_47:
+      Name: w_spas12/ws_usa
+      Dependencies:
+        Dependency_0: w_spas12/common
+    Info_48:
+      Name: w_spas12/ws_zombie
+      Dependencies:
+        Dependency_0: w_spas12/common
+    Info_49:
+      Name: w_spas12/ws_street
+      Dependencies:
+        Dependency_0: w_spas12/common
+    Info_50:
+      Name: w_svd/ws_oem
+      Dependencies:
+        Dependency_0: w_svd/common
+    Info_51:
+      Name: w_svd/ws_desert
+      Dependencies:
+        Dependency_0: w_svd/common
+    Info_52:
+      Name: w_svd/ws_gra
+      Dependencies:
+        Dependency_0: w_svd/common
+    Info_53:
+      Name: w_svd/ws_jungle
+      Dependencies:
+        Dependency_0: w_svd/common
+    Info_54:
+      Name: w_svd/ws_mas
+      Dependencies:
+        Dependency_0: w_svd/common
+    Info_55:
+      Name: w_svd/ws_rasta
+      Dependencies:
+        Dependency_0: w_svd/common
+    Info_56:
+      Name: w_svd/ws_winter
+      Dependencies:
+        Dependency_0: w_svd/common
+    Info_57:
+      Name: w_svd/ws_wood
+      Dependencies:
+        Dependency_0: w_svd/common
+    Info_58:
+      Name: w_svd/ws_zombie
+      Dependencies:
+        Dependency_0: w_svd/common
+    Info_59:
+      Name: w_svd/ws_digital
+      Dependencies:
+        Dependency_0: w_svd/common
+    Info_60:
+      Name: w_ak47basic/ws_oem
+      Dependencies:
+        Dependency_0: w_ak47basic/common
+    Info_61:
+      Name: w_m4a1/common
+      Dependencies:
+        Dependency_0: common
+    Info_62:
+      Name: w_ak47basic/common
+      Dependencies:
+        Dependency_0: common
+    Info_63:
+      Name: w_svd/common
+      Dependencies:
+        Dependency_0: common
+    Info_64:
+      Name: w_spas12/common
+      Dependencies:
+        Dependency_0: common
+    Info_65:
+      Name: w_scar/common
+      Dependencies:
+        Dependency_0: common

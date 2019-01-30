@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 1284834915
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f658d819558c0a4c9a89d6604452e677
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8a137fdee7e9d47eebf7cc3f84c1e481
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+Assets:
+- Assets/ImportedPackages_ArtResources/AssaultWeapons/Models/basic_static.fbx
+- Assets/Resources/Weaponry/Weapons/AK/ReloadAnimations/Default/Materials/Basic.mat
+- Assets/Resources/Weaponry/Weapons/AK/ReloadAnimations/Default/AK reload 1129.fbx
+- Assets/Animations/NewWeaponSystem/Weapons/Materials/Basic.mat
+- Assets/ImportedPackages_ArtResources/WeaponSkins/AK/common/Basic_AR_Normal.tga
+Dependencies:
+- D:/Projects/Unity Projects/LocalWarfareOnGitHub/AssetBundles/StandaloneWindows/common
